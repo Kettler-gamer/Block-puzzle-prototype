@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div-container {
+  width: 545px;
+  height: 545px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.div-container > .cont {
+  width: 125px;
+  height: 125px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div-container > .cont > p {
+  text-align: center;
+}
+
+.p {
+  font-size: 2rem;
+  font-weight: bold;
+}
